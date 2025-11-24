@@ -1,6 +1,6 @@
 
 import unittest
-from math_utils import add
+from math import add
 
 class TestAddFunction(unittest.TestCase):
     # TODO:

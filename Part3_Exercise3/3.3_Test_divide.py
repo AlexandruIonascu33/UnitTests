@@ -1,5 +1,5 @@
 import unittest
-from calc_utils import safe_divide
+from divide import safe_divide
 
 
 class TestSafeDivide(unittest.TestCase):
