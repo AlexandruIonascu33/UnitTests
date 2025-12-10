@@ -64,7 +64,7 @@ class TestMath(unittest.TestCase):
         self.assertEqual(add(2, 3), 5)
 ```
 
-Anything that does **not** start with `test_` is not run as a test method by `unittest`’s automatic discovery. ([Python documentation][1])
+Anything that does **not** start with `test_` is not run as a test method by `unittest`’s automatic discovery. 
 
 
 ### 2.3. Assertions
@@ -79,7 +79,7 @@ Common ones:
 * `self.assertFalse(x)` – checks that `bool(x) is False`
 * `self.assertAlmostEqual(a, b)` – checks that `a` and `b` are almost equal (useful for floats)
 * `self.assertRaises(SomeException, callable, *args, **kwargs)` – checks that a callable raises a given exception
-* `with self.assertRaises(SomeException):` – context manager style for checking exceptions ([Python documentation][1])
+* `with self.assertRaises(SomeException):` – context manager style for checking exceptions 
 
 Example:
 
@@ -110,7 +110,7 @@ with self.assertRaises(ValueError):
     safe_divide(5, 0)
 ```
 
-Both are valid; the context manager is often more readable, especially when code is longer. ([pythonclear.com][2])
+Both are valid; the context manager is often more readable, especially when code is longer. 
 
 ---
 
@@ -128,7 +128,7 @@ or using the `unittest` discovery mechanism from the project root:
 python -m unittest
 ```
 
-Discovery will automatically find files named like `test_*.py` and methods starting with `test_`. ([circuitlabs.net][3])
+Discovery will automatically find files named like `test_*.py` and methods starting with `test_`. 
 
 ---
 
@@ -139,7 +139,7 @@ For a broader tutorial and more examples, you can read:
 **GeeksforGeeks – Python Unittest Tutorial**
 [https://www.geeksforgeeks.org/python/unit-testing-python-unittest/](https://www.geeksforgeeks.org/python/unit-testing-python-unittest/) ([GeeksforGeeks][4])
 
-You can also consult the **official Python documentation** for `unittest`: ([Python documentation][1])
+You can also consult the **official Python documentation** for `unittest`: ([(https://docs.python.org/3/library/unittest.html)](https://docs.python.org/3/library/unittest.html))
 
 ---
 
