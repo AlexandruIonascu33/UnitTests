@@ -16,7 +16,7 @@ Why we use unit tests:
 - 📚 Serve as executable documentation  
 - 🤖 Allow automated checking of behavior
 
-In Python, the most common built-in framework for unit testing is the **`unittest`** module from the standard library. :contentReference[oaicite:0]{index=0}  
+In Python, the most common built-in framework for unit testing is the **`unittest`** module from the standard library.  
 
 ---
 
